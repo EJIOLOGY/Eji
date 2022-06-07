@@ -1,0 +1,15 @@
+html,   
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body,
+div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 185px;
+    margin-left: 10px;
+}
