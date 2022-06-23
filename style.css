@@ -103,7 +103,7 @@ a:active {
 }
 
 .attribution {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     color: hsl(228, 45%, 44%);
 }
@@ -117,34 +117,39 @@ a:active {
         box-sizing: content-box;
         display: block;
         border: 0.1px light #333;
-        border-radius: 20px;
-        margin-top:50px
+        border-radius: 10px;
         margin-bottom: 50px;
     }
     .container-1 {
         background-color: hsl(31, 77%, 52%);
-        width: 20em;
+        width: 21em;
         height: 25em;
         padding: 100px 20px;
         text-align: left;
         border: 0.1px light #333;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }
     .container-2 {
         background-color: hsl(184, 100%, 22%);
-        width: 20em;
+        width: 21em;
         height: 25em;
         padding: 100px 20px;
         text-align: left;
     }
     .container-3 {
         background-color: hsl(179, 100%, 13%);
-        width: 20em;
+        width: 21em;
         height: 25em;
         padding: 100px 20px;
         text-align: left;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .attribution {
+        font-size: 14px;
+        text-align: center;
+        color: hsl(228, 45%, 44%);
+        margin-top: 20px;
     }
 }
